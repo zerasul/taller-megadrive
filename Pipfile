@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 mkdocs = "*"
 mkdocs-material = "*"
+pygments = "*"
+pymdown-extensions = "*"
 
 [requires]
 python_version = "3"
