@@ -10,6 +10,7 @@ mkdocs = "*"
 mkdocs-material = "*"
 pygments = "*"
 pymdown-extensions = "*"
+mkdocs-minify-plugin = "*"
 
 [requires]
 python_version = "3"
