@@ -1,5 +1,7 @@
 # Autor / autores
 
+TODO:
+
 ![Foto de perfil](img/perfil.jpg)
 
 Autor: Cristóbal Contreras Rubio

@@ -1,19 +1,19 @@
 # Instalación en Linux
 
-TODO
+TODO:
 
 ## Ubuntu - Debian
 
-TODO
+TODO:
 
 ## Red Hat
 
-TODO
+TODO:
 
 ## Arch - Manjaro
 
-TODO
+TODO:
 
 ## Raspberry Pi
 
-TODO
+TODO:

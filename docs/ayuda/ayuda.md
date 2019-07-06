@@ -1,6 +1,6 @@
 # Ayuda
 
-TODO
+TODO:
 
 Esta es una sección de ayuda para cuando tengas problemas escribiendo el taller. Úsalo como consulta mientras lo estás redactando (el taller), pero recuerda comentarlo en el `mkdocs.yml` para que no aparezca en tu web.
 

@@ -1,18 +1,18 @@
-# 1. Información del Taller
+# TODO: 1. Información del Taller
 site_name: Taller de X
 site_description: La Jaqueria - Taller de X
 site_author: Cristóbal Contreras Rubio
 site_url: https://crisconru.github.io/
 
-# 2. Repositorio
+# TODO: 2. Repositorio
 repo_name: crisconru/plantilla-taller
 repo_url: https://github.com/crisconru/plantilla-taller
 edit_uri: ""
 
-# 3. Copyright
+# 3. TODO: Copyright
 copyright: Copyright &copy; 2019 - 2020 Cristóbal Contreras
 
-# 4. RRSS
+# 4. TODO: RRSS
 extra:
   social:
     - type: github
@@ -22,7 +22,7 @@ extra:
     - type: linkedin
       link: https://www.linkedin.com/company/lajaqueria/
 
-# 5. Navegación
+# 5. TODO: Navegación
 nav:
   - Introducción: index.md
   - Autor / Autores: about.md
