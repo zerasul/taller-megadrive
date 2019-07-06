@@ -1,52 +1,62 @@
-# Información del Proyecto
-site_name: Taller de X
-site_description: La Jaqueria - Taller de X
-site_author: Cristóbal Contreras Rubio
-site_url: https://crisconru.github.io/
+# 1. Información del Taller
+site_name: Taller de X # TODO:
+site_description: La Jaqueria - Taller de X # TODO:
+site_author: Cristóbal Contreras Rubio # TODO:
+site_url: https://crisconru.github.io/ # TODO:
 
-# Repositorio
-repo_name: crisconru/plantilla-taller
-repo_url: https://github.com/crisconru/plantilla-taller
+# 2. Repositorio
+repo_name: crisconru/plantilla-taller # TODO:
+repo_url: https://github.com/crisconru/plantilla-taller # TODO:
 edit_uri: ""
 
-# Copyright
-copyright: 'Copyright &copy; 2019 - 2020 Cristóbal Contreras'
+# 3. Copyright
+copyright: Copyright &copy; 2019 - 2020 Cristóbal Contreras # TODO:
 
-# Google Analytics
+# 4. RRSS
+extra:
+  social:
+    - type: github
+      link: https://github.com/LaJaqueria # TODO:
+    - type: twitter
+      link: https://twitter.com/lajaqueria # TODO:
+    - type: linkedin
+      link: https://www.linkedin.com/company/lajaqueria/ # TODO:
+
+# 5. Navegación
+nav:
+  # Modelo para empezar: Intro, Info del autor y la instalación
+  - Introducción: index.md # TODO:
+  - Autor / Autores: about.md # TODO:
+  - Instalación:
+    - Instalación: instalacion/instalacion.md # TODO:
+    - Windows: instalacion/windows.md # TODO:
+    - Mac OS: instalacion/macos.md # TODO:
+    - Linux: instalacion/linux.md # TODO:
+  # Aquí seguirían tus secciones
+  # TODO:
+  # Por último, comenta estas 4 líneas
+  - Ayuda para escribir: # TODO:
+    - Notas: ayuda/ayuda.md # TODO:
+    - Markdown: ayuda/markdown.md # TODO:
+    - Material Design: ayuda/material.md # TODO:
+
+# 6. Google Analytics
 #google_analytics:
 #  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
 #  - auto
 
-# Customization
-extra:
-  social:
-    - type: github
-      link: 'https://github.com/LaJaqueria'
-    - type: twitter
-      link: https://twitter.com/lajaqueria
-    - type: linkedin
-      link: https://www.linkedin.com/company/lajaqueria/
-
-# Navegación
-nav:
-  - Introducción: index.md
-  - Instalación:
-    - Windows: instalacion/windows.md
-    - Mac OS: instalacion/macos.md
-    - Linux: instalacion/linux.md
-
-# Configuración del tema
+# 7. Configuración del tema
 theme:
   name: material
   # Color - Fuentes - Lenguaje
   palette:
-    primary: 'blue grey'
+    primary: blue grey
     accent: red
   font:
     text: Roboto
-    code: 'Roboto Mono'
-  logo: images/favicon.png
-  favicon: images/favicon.png
+    code: Roboto Mono
+  logo: img/favicon.png
+  favicon: img/favicon.png
   language: es
   # Página 404
   static_templates:
@@ -55,12 +65,12 @@ theme:
   #include_search_page: false
   #search_index_only: true
 
-# Extensiones
+# 8. Extensiones
 markdown_extensions:
-  #- codehilite
   - markdown.extensions.admonition
   - markdown.extensions.codehilite:
-      guess_lang: false
+      linenums: true
+      # guess_lang: false
   - markdown.extensions.def_list
   - markdown.extensions.footnotes
   - markdown.extensions.meta
@@ -87,7 +97,13 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-# Plugins
+# 9. Necesario para la extensión pydownx.arithmatex
+extra_javascript:
+  # Este fichero es opcional y solo si se quiere sobreescribir la configuracion del plugin
+  #- js/extra.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+
+# 10. Plugins
 plugins:
   - search
   - minify:
