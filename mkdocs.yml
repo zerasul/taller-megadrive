@@ -1,39 +1,42 @@
-# TODO: 1. Información del Taller
-site_name: Taller de X
-site_description: La Jaqueria - Taller de X
-site_author: Cristóbal Contreras Rubio
-site_url: https://crisconru.github.io/
+# 1. Información del Taller
+site_name: Taller de X # TODO:
+site_description: La Jaqueria - Taller de X # TODO:
+site_author: Cristóbal Contreras Rubio # TODO:
+site_url: https://crisconru.github.io/ # TODO:
 
-# TODO: 2. Repositorio
-repo_name: crisconru/plantilla-taller
-repo_url: https://github.com/crisconru/plantilla-taller
+# 2. Repositorio
+repo_name: crisconru/plantilla-taller # TODO:
+repo_url: https://github.com/crisconru/plantilla-taller # TODO:
 edit_uri: ""
 
-# 3. TODO: Copyright
-copyright: Copyright &copy; 2019 - 2020 Cristóbal Contreras
+# 3. Copyright
+copyright: Copyright &copy; 2019 - 2020 Cristóbal Contreras # TODO:
 
-# 4. TODO: RRSS
+# 4. RRSS
 extra:
   social:
     - type: github
-      link: https://github.com/LaJaqueria
+      link: https://github.com/LaJaqueria # TODO:
     - type: twitter
-      link: https://twitter.com/lajaqueria
+      link: https://twitter.com/lajaqueria # TODO:
     - type: linkedin
-      link: https://www.linkedin.com/company/lajaqueria/
+      link: https://www.linkedin.com/company/lajaqueria/ # TODO:
 
-# 5. TODO: Navegación
+# 5. Navegación
 nav:
-  - Introducción: index.md
-  - Autor / Autores: about.md
+  - Introducción: index.md # TODO:
+  - Autor / Autores: about.md # TODO:
   - Instalación:
-    - Windows: instalacion/windows.md
-    - Mac OS: instalacion/macos.md
-    - Linux: instalacion/linux.md
-  - Ayuda para escribir:
-    - Notas: ayuda/ayuda.md
-    - Markdown: ayuda/markdown.md
-    - Material Design: ayuda/material.md
+    - Windows: instalacion/windows.md # TODO:
+    - Mac OS: instalacion/macos.md # TODO:
+    - Linux: instalacion/linux.md # TODO:
+  # Aquí seguirían tus secciones
+  # TODO:
+  # Por último, comenta estas 4 líneas
+  - Ayuda para escribir: # TODO:
+    - Notas: ayuda/ayuda.md # TODO:
+    - Markdown: ayuda/markdown.md # TODO:
+    - Material Design: ayuda/material.md # TODO:
 
 # 6. Google Analytics
 #google_analytics:
