@@ -24,9 +24,11 @@ extra:
 
 # 5. Navegación
 nav:
+  # Modelo para empezar: Intro, Info del autor y la instalación
   - Introducción: index.md # TODO:
   - Autor / Autores: about.md # TODO:
   - Instalación:
+    - Instalación: instalacion/instalacion.md # TODO:
     - Windows: instalacion/windows.md # TODO:
     - Mac OS: instalacion/macos.md # TODO:
     - Linux: instalacion/linux.md # TODO:
