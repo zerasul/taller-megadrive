@@ -1,0 +1,94 @@
+# Información del Proyecto
+site_name: Taller de X
+site_description: La Jaqueria - Taller de X
+site_author: Cristóbal Contreras Rubio
+site_url: https://crisconru.github.io/
+
+# Repositorio
+repo_name: crisconru/plantilla-taller
+repo_url: https://github.com/crisconru/plantilla-taller
+edit_uri: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2019 - 2020 Cristóbal Contreras'
+
+# Google Analytics
+#google_analytics:
+#  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+#  - auto
+
+# Customization
+extra:
+  social:
+    - type: github
+      link: 'https://github.com/LaJaqueria'
+    - type: twitter
+      link: https://twitter.com/lajaqueria
+    - type: linkedin
+      link: https://www.linkedin.com/company/lajaqueria/
+
+# Navegación
+nav:
+  - Introducción: index.md
+  - Instalación:
+    - Windows: instalacion/windows.md
+    - Mac OS: instalacion/macos.md
+    - Linux: instalacion/linux.md
+
+# Configuración del tema
+theme:
+  name: material
+  # Color - Fuentes - Lenguaje
+  palette:
+    primary: 'blue grey'
+    accent: red
+  font:
+    text: Roboto
+    code: 'Roboto Mono'
+  logo: images/favicon.png
+  favicon: images/favicon.png
+  language: es
+  # Página 404
+  static_templates:
+    - 404.html
+  # No incluir los JavaScript de MkDocs
+  #include_search_page: false
+  #search_index_only: true
+
+# Extensiones
+markdown_extensions:
+  #- codehilite
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
