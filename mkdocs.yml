@@ -1,52 +1,57 @@
-# Información del Proyecto
+# 1. Información del Taller
 site_name: Taller de X
 site_description: La Jaqueria - Taller de X
 site_author: Cristóbal Contreras Rubio
 site_url: https://crisconru.github.io/
 
-# Repositorio
+# 2. Repositorio
 repo_name: crisconru/plantilla-taller
 repo_url: https://github.com/crisconru/plantilla-taller
 edit_uri: ""
 
-# Copyright
-copyright: 'Copyright &copy; 2019 - 2020 Cristóbal Contreras'
+# 3. Copyright
+copyright: Copyright &copy; 2019 - 2020 Cristóbal Contreras
 
-# Google Analytics
-#google_analytics:
-#  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
-#  - auto
-
-# Customization
+# 4. RRSS
 extra:
   social:
     - type: github
-      link: 'https://github.com/LaJaqueria'
+      link: https://github.com/LaJaqueria
     - type: twitter
       link: https://twitter.com/lajaqueria
     - type: linkedin
       link: https://www.linkedin.com/company/lajaqueria/
 
-# Navegación
+# 5. Navegación
 nav:
   - Introducción: index.md
+  - Autor / Autores: about.md
   - Instalación:
     - Windows: instalacion/windows.md
     - Mac OS: instalacion/macos.md
     - Linux: instalacion/linux.md
+  - Ayuda para escribir:
+    - Notas: ayuda/ayuda.md
+    - Markdown: ayuda/markdown.md
+    - Material Design: ayuda/material.md
 
-# Configuración del tema
+# 6. Google Analytics
+#google_analytics:
+#  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+#  - auto
+
+# 7. Configuración del tema
 theme:
   name: material
   # Color - Fuentes - Lenguaje
   palette:
-    primary: 'blue grey'
+    primary: blue grey
     accent: red
   font:
     text: Roboto
-    code: 'Roboto Mono'
-  logo: images/favicon.png
-  favicon: images/favicon.png
+    code: Roboto Mono
+  logo: img/favicon.png
+  favicon: img/favicon.png
   language: es
   # Página 404
   static_templates:
@@ -55,12 +60,12 @@ theme:
   #include_search_page: false
   #search_index_only: true
 
-# Extensiones
+# 8. Extensiones
 markdown_extensions:
-  #- codehilite
   - markdown.extensions.admonition
   - markdown.extensions.codehilite:
-      guess_lang: false
+      linenums: true
+      # guess_lang: false
   - markdown.extensions.def_list
   - markdown.extensions.footnotes
   - markdown.extensions.meta
@@ -87,7 +92,13 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-# Plugins
+# 9. Necesario para la extensión pydownx.arithmatex
+extra_javascript:
+  # Este fichero es opcional y solo si se quiere sobreescribir la configuracion del plugin
+  #- js/extra.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+
+# 10. Plugins
 plugins:
   - search
   - minify:

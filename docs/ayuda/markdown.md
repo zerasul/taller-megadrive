@@ -38,7 +38,7 @@ Así se pone un [enlace a una página de Internet](https://lajaqueria.org).
 
 Así se pone un [enlace a una página del propio taller](../instalacion/linux.md).
 
-## Imágenes {#imagenes}
+## Imágenes
 
 Así se pone una imagen desde Internet
 
