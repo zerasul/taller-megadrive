@@ -1,6 +1,6 @@
 language: python # Set the build language to Python
 
-python: 3.7 # Set the version of Python to use
+python: 3.6 # Set the version of Python to use
 
 branches: master # Set the branch to build from
 
