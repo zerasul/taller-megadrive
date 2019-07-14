@@ -2,7 +2,7 @@
 
 TODO: Aquí debe de ir la **Descripción del taller**
 
-Esta es la lista de tareas que tienes que hacer para poner a punto este taller.
+Esta es la lista de tareas que tienes que hacer para poner a punto este taller ¡Ánimo!
 
 * [ ] Vete a `mkdocs.yml` y rellena todos los puntos del 1 al 4. **Borra los comentarios TODO: conforme vayas acabando**
 * [ ] En este fichero, `index.md`, escribe de que va el taller, pon toda la información. **Borra el TODO: cuando acabes**
