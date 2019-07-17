@@ -1,5 +1,7 @@
 # plantilla-taller
 
+[![Build Status](https://travis-ci.org/LaJaqueria/plantilla-taller.svg?branch=master)](https://travis-ci.org/LaJaqueria/plantilla-taller)
+
 Esta es una plantilla para usar en los talleres de [La Jaquería](https://lajaqueria.org). Está hecha con [MKDocs](https://www.mkdocs.org/) y usando el tema [Material Design](https://squidfunk.github.io/mkdocs-material/) (es muy completo y además se ve bien en móviles).
 
 ## Pasos previos
