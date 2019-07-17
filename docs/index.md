@@ -1,6 +1,6 @@
 # Taller de X
 
-TODO: Aquí debe de ir la **Descripción del taller**
+TODO: Aquí debe de ir toda la **Descripción del taller**
 
 Esta es la lista de tareas que tienes que hacer para poner a punto este taller ¡Ánimo!
 
