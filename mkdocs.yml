@@ -1,44 +1,49 @@
 # 1. Información del Taller
-site_name: Taller de X # TODO:
-site_description: La Jaqueria - Taller de X # TODO:
-site_author: Cristóbal Contreras Rubio # TODO:
-site_url: https://crisconru.github.io/ # TODO:
+site_name: Taller de Desarrollo de Juegos Retro con MegaDrive # TODO:
+site_description: HackLab Almeria - Taller de Juegos Retro con Mega Drive # TODO:
+site_author: Victor Suarez Garcia # TODO:
+site_url: https://zerasul.github.io/ # TODO:
 
 # 2. Repositorio
-repo_name: crisconru/plantilla-taller # TODO:
-repo_url: https://github.com/crisconru/plantilla-taller # TODO:
+repo_name: zerasul/taller-megadrive # TODO:
+repo_url: https://github.com/zerasul/taller-megadrive # TODO:
 edit_uri: ""
 
 # 3. Copyright
-copyright: Copyright &copy; 2019 - 2020 Cristóbal Contreras # TODO:
+copyright: Copyright &copy; 2019 - 2020 Víctor Suarez # TODO:
 
 # 4. RRSS
 extra:
   social:
     - type: github
-      link: https://github.com/LaJaqueria # TODO:
+      link: https://github.com/HackLab-Almeria # TODO:
     - type: twitter
-      link: https://twitter.com/lajaqueria # TODO:
-    - type: linkedin
-      link: https://www.linkedin.com/company/lajaqueria/ # TODO:
+      link: https://twitter.com/HackLabAl # TODO:
+
 
 # 5. Navegación
 nav:
   # Modelo para empezar: Intro, Info del autor y la instalación
   - Introducción: index.md # TODO:
-  - Autor / Autores: about.md # TODO:
-  - Instalación:
-    - Instalación: instalacion/instalacion.md # TODO:
-    - Windows: instalacion/windows.md # TODO:
-    - Mac OS: instalacion/macos.md # TODO:
-    - Linux: instalacion/linux.md # TODO:
+  - Historia:
+    - Historia de la Mega Drive: history/history.md
+    - Desarrollo en Motorola 68000: history/m68k.md
+  - SGDK; Sega Genesis Development Kit:
+    - SGDK: sgdk/sgdk.md
+    - Instalación Entorno:
+        - Windows: sgdk/instalacion/windows.md # TODO:
+        - Mac OS: sgdk/instalacion/macos.md # TODO:
+        - Linux: sgdk/instalacion/linux.md # TODO:
+    - VS Code: sgdk/vscode.md
+    - Hola Mundo: sgdk/hola-mundo.md
+  - Desarrollo de Juegos Retro:
+    - Planos: devretro/planes.md
+    - Controles: devretro/controls.md
+    - sprites: devretro/sprites.md
+    - Musica y sonido: devretro/sound-music.md
   # Aquí seguirían tus secciones
   # TODO:
   # Por último, comenta estas 4 líneas
-  - Ayuda para escribir: # TODO:
-    - Notas: ayuda/ayuda.md # TODO:
-    - Markdown: ayuda/markdown.md # TODO:
-    - Material Design: ayuda/material.md # TODO:
 
 # 6. Google Analytics
 #google_analytics:
@@ -50,13 +55,13 @@ theme:
   name: material
   # Color - Fuentes - Lenguaje
   palette:
-    primary: blue grey # TODO:
+    primary: blue orange # TODO:
     accent: red # TODO:
   font:
     text: Roboto #TODO:
     code: Roboto Mono # TODO:
-  logo: img/favicon.png #TODO:
-  favicon: img/favicon.png # TODO:
+  logo: https://hacklabalmeria.net/recursos/favicons/apple-icon-152x152.png #TODO:
+  favicon: https://hacklabalmeria.net/recursos/favicons/favicon-32x32.png # TODO:
   language: es
   # Página 404
   static_templates:
