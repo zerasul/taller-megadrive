@@ -14,7 +14,7 @@ Seguidamente mostramos las características de la Sega Mega Drive:
 | **CPU 1**           | Motorola 68000 de 16 bits a 7.61Mhz (PAL), 7.67Mhz (NTSC) |
 | **CPU 2**           | Zilog Z80 de 8 bits a 3.55MHz (PAL), 3.58 Mhz (NTSC)      |
 | **Memoria**           | RAM Principal: 64Kb; RAM Video: 64Kb; RAM Sonido: 8Kb |
-| **Vídeo**           | Procesador VDP con resolucion de hasta 320x224 (320x240); capacidad de hasta 61 colores en pantalla (ampliable), 80 sprites maximo por pantalla |
+| **Vídeo**           | Procesador VDP con resolucion de hasta 320x224 (320x240); capacidad de hasta 61 colores en pantalla (ampliable), 80 sprites maximo; 20 por pantalla |
 | **Sonido** | Chip de sonido de 6 canales Yamaha YM2612; Chip adicional de sonido de 4 canales SN76489 y sonido 8 bits|
 | **Entrada/Salida** | Slot de cartuchos por la parte superior; Slot de expansión para la *Sega MegaCD*; 2 conectores para controladores; salida de auriculares estereo |
 
