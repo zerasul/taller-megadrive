@@ -41,6 +41,7 @@ nav:
     - Controles: devretro/controls.md
     - sprites: devretro/sprites.md
     - Musica y sonido: devretro/sound-music.md
+  - Referencias: references.md
   # Aquí seguirían tus secciones
   # TODO:
   # Por último, comenta estas 4 líneas
