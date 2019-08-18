@@ -32,8 +32,8 @@ nav:
     - SGDK: sgdk/sgdk.md
     - Instalación Entorno:
         - Windows: sgdk/instalacion/windows.md # TODO:
-        - Mac OS: sgdk/instalacion/macos.md # TODO:
         - Linux: sgdk/instalacion/linux.md # TODO:
+        - Mac OS: sgdk/instalacion/macos.md # TODO:
     - VS Code: sgdk/vscode.md
     - Hola Mundo: sgdk/hola-mundo.md
   - Desarrollo de Juegos Retro:
