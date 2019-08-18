@@ -5,7 +5,7 @@ Para poder trabajar con SGDK, necesitamos conocer la estructura de un proyecto p
 * carpeta _inc_; donde se pondran los ficheros de cabeceras (.h, .m,etc...).
 * carpeta _res_; donde se incluiran los ficheros de recursos (imagenes, sonido, otros recursos).
 
-Para empezar, vamos a crear una carpeta (podemos usar _Visual Studio Code); donde se creará una carpeta llamda _src_; dentro de esta carpeta crearemos el fichero _hello.c_; con el siguiente contenido:
+Para empezar, vamos a crear una carpeta (podemos usar _Visual Studio Code_); donde se creará una carpeta llamada _src_ ; dentro de esta carpeta crearemos el fichero _hello.c_; con el siguiente contenido:
 
 ```c
 /*Ejemplo 1: Hola Mundo.*/
