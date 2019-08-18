@@ -37,8 +37,8 @@ nav:
     - VS Code: sgdk/vscode.md
     - Hola Mundo: sgdk/hola-mundo.md
   - Desarrollo de Juegos Retro:
-    - Planos: devretro/planes.md
     - Controles: devretro/controls.md
+    - Planos: devretro/planes.md
     - sprites: devretro/sprites.md
     - Musica y sonido: devretro/sound-music.md
   - Referencias: references.md
@@ -75,7 +75,7 @@ theme:
 markdown_extensions:
   - markdown.extensions.admonition
   - markdown.extensions.codehilite:
-      linenums: true
+      linenums: false
       # guess_lang: false
   - markdown.extensions.def_list
   - markdown.extensions.footnotes
