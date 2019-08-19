@@ -46,3 +46,6 @@ make -f $GENDEV/sgdk/mkfiles/makefile.gen clean all
     Quizas para linux o para Windows, puede ser necesario copiar el makefile que nos define en el kit de desarrollo.
 
 Una vez compilado, puede encontrarse en el directorio _out_ un fichero llamado _rom.bin_; el cual incluye la rom ya compìlada y lista para ser usada en un emulador (o hardware con un cartucho con tarjeta Flash).
+
+!!! note
+	Todos los ejemplos, estaran disponibles en el repositorio de este mismo taller.

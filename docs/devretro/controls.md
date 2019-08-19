@@ -244,3 +244,5 @@ void inputHandler(u16 joy, u16 state, u16 changed)
 
 }
 ```
+
+Una vez que hemos visto como funcionan los controles, pasaremos a ver como funcionan los planos y como podemos añadir recursos a nuestros proyectos.
