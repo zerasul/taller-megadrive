@@ -39,7 +39,7 @@ nav:
   - Desarrollo de Juegos Retro:
     - Controles: devretro/controls.md
     - Planos: devretro/planes.md
-    - sprites: devretro/sprites.md
+    - Sprites: devretro/sprites.md
     - Musica y sonido: devretro/sound-music.md
   - Referencias: references.md
   # Aquí seguirían tus secciones
