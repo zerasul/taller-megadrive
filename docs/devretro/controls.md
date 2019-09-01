@@ -103,7 +103,7 @@ void showInputStatus()
 }
 ```
 
-Como podéis ver en el ejemplo, nos falta un fichero donde se encuentran todas las constantes que hemos definido; el cual podéis descargar [aquí](../../res/constants.h) y ponerlo en la carpeta _inc_. Una vez los dos ficheros esten listos, podemos compilarlo y ejecutarlo en un emulador o consola.
+Como podéis ver en el ejemplo, nos falta un fichero donde se encuentran todas las constantes que hemos definido; el cual podéis descargar [aquí](../res/constants.h) y ponerlo en la carpeta _inc_. Una vez los dos ficheros esten listos, podemos compilarlo y ejecutarlo en un emulador o consola.
 
 !!! note
     **Recuerda**: La rom compilada se encuentra en la carpeta _out_ con el nombre _rom.bin_.

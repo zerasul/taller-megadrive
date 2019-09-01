@@ -47,7 +47,7 @@ Hemos de tener en cuenta también que las imagenes en Mega Drive no son RGB ya q
 
 Una vez sabemos como añadir recursos de imagen a nuestro poyecto, vamos a mostrar como añadir planos y cargarlos en nuestros juegos para que se muestren. En primer lugar, hay que saber que con SGDK, podemos trabajar con 2 planos a la vez (aunque podemos utilizar un tercer plano usando Sprites).
 
-En primer lugar, hay que saber que al trabajar con paletas es importante saber que se esta cargando correctamente con la paleta que corresponde. En Mega Drive se pueden trabajar con 4 paletas de 16 colores a la vez. Por lo que es importante saber con que colores estamos trabajando.
+En primer lugar, hay que saber que al trabajar con paletas es importante saber que se esta cargando correctamente con la paleta que corresponde. SGDK permite trabajar con 4 paletas de 16 colores a la vez. Por lo que es importante saber con que colores estamos trabajando.
 
 Para poder dibujar un plano, se utiliza la siguiente función:
 
@@ -63,7 +63,7 @@ Esta función, tiene los siguientes parametros:
 * Posicion X: Posicion Inicial X donde se dibujara.
 * Posicion Y: Posicion Inicial Y donde se dibujara.
 * Cargar Paleta: Indica si se debe cargar la paleta de la imagen o no si ya se habia cargado previamente.
-* Modo Carga: Indica como se debe cargar, puede ser CPU, DMA o DMA_QUEUE; por defecto es CPU.
+* Modo Carga: Indica como se debe cargar, puede ser CPU, DMA o DMA_QUEUE; por defecto es CPU. Si se deja como FALSE se usara la CPU.
 
 !!! note
     La macro ```TILE_ATTR_FULL``` permite definir el Tile base desde el que se dibujara la imagen o plano. En este caso tiene los siguientes parámetros:
@@ -76,16 +76,16 @@ Esta función, tiene los siguientes parametros:
 
 Como hemos podido ver a la hora de trabajar con planos, Se pueden trabajar con 2 a la vez; sin embargo, si utilizamos las prioridades y la capa de sprites, esto se puede ampliar. Vamos a mostrar un esquema para ver la prioridad y como se dibujan los planos; pudiendo jugar con la transparencia y por ello hacer la sensación de profundidad.
 
-![esquema-planos](..\img\esquemaplanos.png)
+![esquema-planos](../img/esquemaplanos.png)
 
 ## Ejemplo con Planos
 
 Una vez que hemos visto como manejar los planos y como se dibujan en la Mega Drive, pasaremos a ver un ejemplo usando dos imagenes para dar una sensación de profundidad. Una aparecerá un terreno por donde se puede avanzar y otro será el cielo que se mostrará de fondo. Dejamos aquí las dos imagenes y la correspondiente descarga de la misma con 4bpp de profundidad.
 
-![bga](..\img\bga.png)
-![bgb](..\img\bgb.png)
+![bga](../img/bga.png)
+![bgb](../img/bgb.png)
 
-[Enlace de descarga de las imagenes](..\res\images.zip)
+[Enlace de descarga de las imagenes](../res/images.zip)
 
 Una vez descargadas las imagenes y creado un nuevo proyecto, podemos pasar a añadir estas a la carpeta _res_; para una mejor organización añadiremos dentro de esta una carpeta llamda _gfx_. En la cual añadiremos las 2 imagenes.
 
@@ -147,4 +147,4 @@ int main()
 
 Una vez compilado el proyecto, si lo ejecutamos en un emulador saldrá más o menos así:
 
-![backgroundroom](..\img\backgroundrom.PNG)
+![backgroundroom](../img/backgroundrom.PNG)

@@ -118,11 +118,11 @@ Para realizar animaciones, necesitamos que cada una de ellas se encuentre en una
 
 vamos a mostrar una imagen de prueba:
 
-![animacionsprite](..\img\ellibaston.png)
+![animacionsprite](../img/ellibaston.png)
 
 Como vemos este sprite se compone de 4 filas de 3 frames cada una; si mostraramos la ejecución de cada una se vería la siguiente ejecución:
 
-![animacion](..\img\animacion.gif)
+![animacion](../img/animacion.gif)
 
 En cada momento podemos cambiar la animación de nuestro sprite con la función ```SPR_setAnim(sprite, nº animacion)```; esta función debe ser llamada antes de actualizar el motor de sprites. Es importante saber, que cada fila representa una animación y que empieza por 0.
 
@@ -133,7 +133,7 @@ En cada momento podemos cambiar la animación de nuestro sprite con la función 
 
 Al igual que con los planos, los sprites tienen su propio plano en que se dibujaran; sin embargo, también disponen de prioridad y permite poder tener sensación de profundidad.
 
-![ordenplanos](..\img\esquemaplanos.png)
+![ordenplanos](../img/esquemaplanos.png)
 
 Podemos cambiar la prioridad del sprite con la función ```SPR_setPriorityAttribut(sprite, TRUE| FALSE)```; la cual podemos definir si el sprite tiene prioridad o no.
 
@@ -141,9 +141,9 @@ Podemos cambiar la prioridad del sprite con la función ```SPR_setPriorityAttrib
 
 Por último, vamos a hacer un pequeño ejemplo con Sprites donde mostraremos 2 sprites que dejamos las imagenes a continuación:
 
-![elliready](..\img\elliready.png) ![zeraready](..\img\zeraready.png)
+![elliready](../img/elliready.png) ![zeraready](../img/zeraready.png)
 
-[Enlace descarga imagenes](..\res\sprites.zip)
+[Enlace descarga imagenes](../res/sprites.zip)
 
 !!! note
     La imagen del personaje con sombrero es de 16x16 pixeles cada frame mientras que el personaje con coletas es de 32x32 cada frame.
@@ -264,5 +264,8 @@ void readcontrollers()
 }
 
 ```
+Si ejecutamos el juego en un emulador, se mostrara mas o menos asi:
+
+![spritesrom](../img/spritesrom.png)
 
 Ya tenemos nuestro juego casi finalizado; ya solo nos falta añadir sonido y música.
