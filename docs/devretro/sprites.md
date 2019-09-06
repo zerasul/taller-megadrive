@@ -37,6 +37,7 @@ Donde:
 * tiles_alto: Número de tiles de cada frame de alto.
 * compresión: Indica la compresión usada para añadir el recurso. En este caso es FAST, pero puede ser NONE.
 * veloc_ani: Velocidad de la animación. Tiempo entre cada frame.
+* collision (a partir de SGDK 1.41): Indica la caja de colision a utilizar (CIRCLE (circular), BOX (caja) o NONE (ninguna)).
 
 Una vez añadido el fichero, compilaremos nuestro proyecto, y se generará un fichero .h en la carpeta _res_.
 
