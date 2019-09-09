@@ -6,3 +6,6 @@
 * [Motorola 68000](https://es.wikipedia.org/wiki/Motorola_68000)
 * [Charas-project](http://charas-project.net/index.php?lang=es)
 * [RPG Maker 2003](https://store.steampowered.com/app/362870/RPG_Maker_2003/)
+* [Gens Pagina Oficial](http://www.gens.me/)
+* [Gens KMod](https://segaretro.org/Gens_KMod)
+* [Visual Studio Code](https://code.visualstudio.com/)
