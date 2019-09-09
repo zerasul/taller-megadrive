@@ -1,0 +1,1 @@
+XGM theme "music/ga.vgm"
