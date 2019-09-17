@@ -1,5 +1,7 @@
 # Web del taller de Videojuegos Retro para Mega Drive
 
+[![Build Status](https://travis-ci.org/zerasul/taller-megadrive.svg?branch=master)](https://travis-ci.org/zerasul/taller-megadrive)
+
 En este repositorio se encuentra el material para el taller de desarrollo de videojuegos retro: Mega Drive.
 
 En este repositorio se encuentra el contenido de la web del taller y ademas una carpeta con los ejemplos que se veran en el repositorio.
