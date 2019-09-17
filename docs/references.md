@@ -1,5 +1,7 @@
 
 
+* [SGDK](https://github.com/Stephane-D/SGDK)
+* [GENDEV](https://github.com/kubilus1/gendev)
 * [Wikipedia: Sega mega Drive](https://es.wikipedia.org/wiki/Mega_Drive)
 * [Wikipedia: Sega Mega CD](https://es.wikipedia.org/wiki/Sega_Mega-CD)
 * [Sega Retro: Documentación Oficial mega Drive](https://segaretro.org/Mega_Drive_official_documentation)
@@ -9,3 +11,4 @@
 * [Gens Pagina Oficial](http://www.gens.me/)
 * [Gens KMod](https://segaretro.org/Gens_KMod)
 * [Visual Studio Code](https://code.visualstudio.com/)
+* [Repositorio Web y Ejemplos](https://github.com/zerasul/taller-megadrive)
