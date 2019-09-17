@@ -1,6 +1,4 @@
-# plantilla-taller
-
-
+# Web del taller de Videojuegos Retro para Mega Drive
 
 En este repositorio se encuentra el material para el taller de desarrollo de videojuegos retro: Mega Drive.
 
