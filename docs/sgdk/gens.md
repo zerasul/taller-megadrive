@@ -25,3 +25,12 @@ Descargar el fichero .deb (Para sistemas basados en Debian) o .rpm (Sistemas RH)
 !!! note
     Esta version requiere que se tenga activado la gestión de depedencias con arquitectura i386 por lo que requerirá ejecutar el siguiente comando ```dpkg --add-architecture i386```.
 
+## MacOs (wine)
+
+Si ha instalado SGDK usando el método con Wine, puede instalar GensK (versión con KMod) descargandolo desde la siguiente [página](https://gendev.spritesmind.net/page-gensK.html ). Una vez descargado y descomprimido, realizaremos los siguientes pasos:
+
+```bash
+mkdir $GENDEV/gens
+mv <carpetadondeseencuentregensk>/* $GENDEV/gens
+ln -sv $GENDEV/gens $GENDEV/wine/drive_C/gens
+```
