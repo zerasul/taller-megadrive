@@ -1,6 +1,6 @@
 # Controles en Mega Drive
 
-A la hora de trabajar con los controles de mega Drive, hay que tener en cuenta que había varios perifericos especiales para esta videoconsola. Como puede ser un [raton](https://segaretro.org/Sega_Mouse); o tener un adaptador para más de 2 controladores (como podía ser los juegos con formato J-Cart).
+A la hora de trabajar con los controles de mega Drive, hay que tener en cuenta que había varios perifericos especiales para esta videoconsola. Como puede ser un [segamouse](http://museodelvideojuego.com/accesorios/sega-mouse); o tener un adaptador para más de 2 controladores (como podía ser los juegos con formato J-Cart).
 
 ![Micro-Machines2](https://upload.wikimedia.org/wikipedia/commons/e/e6/Mega_drive_j-cart.jpg)
 
