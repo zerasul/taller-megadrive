@@ -9,6 +9,6 @@
 * [Charas-project](http://charas-project.net/index.php?lang=es)
 * [RPG Maker 2003](https://store.steampowered.com/app/362870/RPG_Maker_2003/)
 * [Gens Pagina Oficial](http://www.gens.me/)
-* [Gens KMod](https://segaretro.org/Gens_KMod)
+* [Gens KMod](https://gendev.spritesmind.net/page-gensK.html)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Repositorio Web y Ejemplos](https://github.com/zerasul/taller-megadrive)
