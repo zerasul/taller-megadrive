@@ -20,7 +20,7 @@ Para ver este menú especial, podemos ir al menú CPU->debug->Genesis, para ver 
 
 ## Linux
 
-Descargar el fichero .deb (Para sistemas basados en Debian) o .rpm (Sistemas RH) del siguiente [enlace](); e instalar en tu sistema usando el gestor de paquetes necesario.
+Descargar el fichero .deb (Para sistemas basados en Debian) o .rpm (Sistemas RH) del siguiente [enlace](https://sourceforge.net/projects/gens/files/Gens%20for%20Linux/Gens%202.15.5/); e instalar en tu sistema usando el gestor de paquetes necesario.
 
 !!! note
     Esta version requiere que se tenga activado la gestión de depedencias con arquitectura i386 por lo que requerirá ejecutar el siguiente comando ```dpkg --add-architecture i386```.
