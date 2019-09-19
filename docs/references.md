@@ -11,4 +11,6 @@
 * [Gens Pagina Oficial](http://www.gens.me/)
 * [Gens KMod](https://gendev.spritesmind.net/page-gensK.html)
 * [Visual Studio Code](https://code.visualstudio.com/)
+* [Genesis Code: pagina Descarga](https://marketplace.visualstudio.com/items?itemName=zerasul.genesis-code)
 * [Repositorio Web y Ejemplos](https://github.com/zerasul/taller-megadrive)
+* [Foro de Desarrollo GenDev (SpritesMind)](http://gendev.spritesmind.net/forum/)
