@@ -11,7 +11,7 @@ Como se ve en la anterior imagen, este sprites se compone de una serie de imagen
 Sin embargo, antes de continuar tenemos que tener en cuenta como funcionan los sprites dentro de la MegaDrive.
 
 * Los sprites tienen su propio plano.
-* La posicion de pantalla de los Sprites van en Píxeles y no en Sprites.
+* La posicion de pantalla de los Sprites van en Píxeles y no en Tiles.
 * Podemos tener un total de 80 sprites por pantalla.
 * Solo se pueden tener 20 sprites por linea horizontal.
 * La manera de cargar un sprite es igual que los Planos (en pixels).
