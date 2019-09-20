@@ -36,5 +36,8 @@ Esta extensión permite realizar los siguientes comandos (que se pueden utilizar
 !!! note
     También se puede establecer el comando desde la configuración de VSCode (<kbd>CTRL</kbd>+<kbd>,</kbd>).
 
+!!! note
+    Este comando es compatible con cualquier emulador que pueda usarse como Blastem.
+
 
 Para más información acerca de Genesis code, puedes consultar el proyecto en [Github](https://github.com/zerasul/genesis-code).
