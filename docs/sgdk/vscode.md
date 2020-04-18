@@ -18,8 +18,6 @@ Podéis ver la plantilla desde el siguiente [enlace](https://github.com/v4ld3r5/
 
 Se ha creado una nueva extensión para Visual Studio Code, para poder integrar tanto la compilación, como la creación de proyectos para usar con SGDK o GENDEV. Podéis descargar esta extensión desde el [marketplace de Microsoft](https://marketplace.visualstudio.com/items?itemName=zerasul.genesis-code).
 
-!!! note
-    Actualmente Genesis Code no es compatible con MACOs. Se esta trabajando en su resolución.
 
 Esta extensión permite realizar los siguientes comandos (que se pueden utilizar pulsando la combinación <kbd>CTRL</kbd>+<kbd>mayus</kbd>+<kbd>P</kbd>):
 
