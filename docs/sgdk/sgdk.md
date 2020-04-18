@@ -1,4 +1,4 @@
-SGDK (Sega Genesis Development Kit) es un kit de desarrollo para Sega MegaDrive. Este kit es gratuito y OpenSource; y fue desarrollado por [Stephane Dallongeville](https://github.com/Stephane-D). Este kit esta desarrollado en C y permite gracias a la librería que trae generar ROMS que pueden ser utilizados tanto en un emulador, como en una Mega Drive real. El kit de Desarrollo SGK incluye:
+SGDK (Sega Genesis Development Kit) es un kit de desarrollo para Sega MegaDrive. Este kit es gratuito y OpenSource; y fue desarrollado por [Stephane Dallongeville](https://github.com/Stephane-D). Este kit esta desarrollado en C y permite gracias a la librería que trae generar ROMS que pueden ser utilizados tanto en un emulador, como en una Mega Drive real. El kit de Desarrollo SGDK incluye:
 
 * Librería de Desarrollo para Mega Drive.
 * Conjunto de herramientas necesarias para manejar los recursos (Imagenes, Sprites, musica...).

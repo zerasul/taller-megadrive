@@ -29,6 +29,7 @@ Esta extensión permite realizar los siguientes comandos (que se pueden utilizar
 * Ejecutar Proyecto: Ejecuta el emulador gens con la rom del proyecto actual (dentro de la carpeta out).
 * Compilar y ejecutar proyecto: Compila y después ejecuta el emulador gens de la rom generada.
 * Establecer el comando para ejecutar gens: Actualiza la configuración para establecer como se llamará al emulador gens.
+* Te permite autocompletado para los ficheros de recursos de SGDK.
 
 
 !!! note

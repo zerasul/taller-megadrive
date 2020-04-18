@@ -121,9 +121,9 @@ int main()
     u16 ind = TILE_USERINDEX;
 
     //dibuja un plano a partir de un recurso
-    VDP_drawImageEx(PLAN_B, &bga_image, TILE_ATTR_FULL(PAL1, FALSE, FALSE, FALSE, ind), 0, 0, FALSE, TRUE);
+    VDP_drawImageEx(BG_B, &bga_image, TILE_ATTR_FULL(PAL1, FALSE, FALSE, FALSE, ind), 0, 0, FALSE, TRUE);
     ind += bga_image.tileset->numTile;
-    VDP_drawImageEx(PLAN_A, &bgb_image, TILE_ATTR_FULL(PAL0, FALSE, FALSE, FALSE, ind), 0, 0, FALSE, TRUE);
+    VDP_drawImageEx(BG_A, &bgb_image, TILE_ATTR_FULL(PAL0, FALSE, FALSE, FALSE, ind), 0, 0, FALSE, TRUE);
     ind += bgb_image.tileset->numTile;
     
     
@@ -144,7 +144,9 @@ int main()
     }
 }
 ```
-
+!!! note
+    Es posible que los usuarios con GENDEV falle la compilacion; esto es debido la la actualizacion de SGDK a la version 1.50. Cambiad en el ejemplo ```BG_A``` por ```PLAN_A``` y ```BG_B``` por ```PLAN_B```.
+    
 Una vez compilado el proyecto, si lo ejecutamos en un emulador saldrá más o menos así:
 
 ![backgroundroom](../img/backgroundrom.PNG)

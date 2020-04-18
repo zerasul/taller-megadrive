@@ -1,9 +1,9 @@
 # Instalacion en Windows
 
-Para instalar en Windows el kit de desarrollo se requiere tener instalado el entorno de Ejecución java (JRE); el cual puede descargarse desde la página oficial de [Oracle](https://www.java.com/es/download/).
+Para instalar en Windows el kit de desarrollo se requiere tener instalado el entorno de Ejecución java (JRE); el cual puede descargarse desde la página oficial de [Oracle](https://www.java.com/es/download/); o usarse la alternativa de ```openjdk```.
 
 !!! note
-    Requiere Java 1.6 o superior.
+    Requiere Java 1.8 o superior.
 
 Tras tener java instalado, procederemos a realizar las siguientes instrucciones:
 

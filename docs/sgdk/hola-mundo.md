@@ -42,6 +42,13 @@ Una vez escrito el codigo podemos usar Visual studio code para ejecutar el sigui
 make -f $GENDEV/sgdk/mkfiles/makefile.gen clean all
 ```
 
+* MacOs (Usando Wine)
+
+```bash
+WINEPREFIX=$GENDEV/wine wine cmd
+%GDK_WIN%\bin\make -f %GDK_WIN\makefile.gen
+```
+
 !!! note
     Quizas para linux o para Windows, puede ser necesario copiar el makefile que nos define en el kit de desarrollo.
 

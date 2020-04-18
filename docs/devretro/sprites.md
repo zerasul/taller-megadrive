@@ -196,9 +196,9 @@ int main()
     u16 ind = TILE_USERINDEX;
 
     //dibuja un plano a partir de un recurso
-    VDP_drawImageEx(PLAN_B, &bga_image, TILE_ATTR_FULL(PAL1, FALSE, FALSE, FALSE, ind), 0, 0, FALSE, TRUE);
+    VDP_drawImageEx(BG_B, &bga_image, TILE_ATTR_FULL(PAL1, FALSE, FALSE, FALSE, ind), 0, 0, FALSE, TRUE);
     ind += bga_image.tileset->numTile;
-    VDP_drawImageEx(PLAN_A, &bgb_image, TILE_ATTR_FULL(PAL0, FALSE, FALSE, FALSE, ind), 0, 0, FALSE, TRUE);
+    VDP_drawImageEx(BG_A, &bgb_image, TILE_ATTR_FULL(PAL0, FALSE, FALSE, FALSE, ind), 0, 0, FALSE, TRUE);
     ind += bgb_image.tileset->numTile;
     
     
@@ -265,6 +265,10 @@ void readcontrollers()
 }
 
 ```
+
+!!! note
+    **RECUERDA:** Debes crear el fichero .res con la información tanto de los sprites, como de los fondos; fijate en el código fuente para saber el nombre de los recursos.
+
 Si ejecutamos el juego en un emulador, se mostrara mas o menos asi:
 
 ![spritesrom](../img/spritesrom.png)
