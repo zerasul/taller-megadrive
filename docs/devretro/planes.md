@@ -52,12 +52,12 @@ En primer lugar, hay que saber que al trabajar con paletas es importante saber q
 Para poder dibujar un plano, se utiliza la siguiente función:
 
 ```
-VDP_drawImageEx(PLAN_B, &bga_image, TILE_ATTR_FULL(PAL1, FALSE, FALSE, FALSE, ind), 0, 0, FALSE, TRUE);
+VDP_drawImageEx(BG_B, &bga_image, TILE_ATTR_FULL(PAL1, FALSE, FALSE, FALSE, ind), 0, 0, FALSE, TRUE);
 ```
 
 Esta función, tiene los siguientes parametros:
 
-* plano: Indica el plano que dibujara PLAN_A o PLAN_B.
+* plano: Indica el plano que dibujara BG_A o BG_B.
 * nombre del recurso: Es el nombre que hemos puesto en el fichero _res_.
 * Tile Base: Indica en el Tile donde se dibujara; es por ello que usamos la macro _TILE_ATTR_FULL_.
 * Posicion X: Posicion Inicial X donde se dibujara.
@@ -144,9 +144,10 @@ int main()
     }
 }
 ```
+
 !!! note
     Es posible que los usuarios con GENDEV falle la compilacion; esto es debido la la actualizacion de SGDK a la version 1.50. Cambiad en el ejemplo ```BG_A``` por ```PLAN_A``` y ```BG_B``` por ```PLAN_B```.
-    
+
 Una vez compilado el proyecto, si lo ejecutamos en un emulador saldrá más o menos así:
 
 ![backgroundroom](../img/backgroundrom.PNG)
