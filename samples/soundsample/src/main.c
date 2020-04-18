@@ -43,9 +43,9 @@ int main()
     u16 ind = TILE_USERINDEX;
 
     //dibuja un plano a partir de un recurso
-    VDP_drawImageEx(PLAN_B, &bga_image, TILE_ATTR_FULL(PAL1, FALSE, FALSE, FALSE, ind), 0, 0, FALSE, TRUE);
+    VDP_drawImageEx(BG_B, &bga_image, TILE_ATTR_FULL(PAL1, FALSE, FALSE, FALSE, ind), 0, 0, FALSE, TRUE);
     ind += bga_image.tileset->numTile;
-    VDP_drawImageEx(PLAN_A, &bgb_image, TILE_ATTR_FULL(PAL0, FALSE, FALSE, FALSE, ind), 0, 0, FALSE, TRUE);
+    VDP_drawImageEx(BG_A, &bgb_image, TILE_ATTR_FULL(PAL0, FALSE, FALSE, FALSE, ind), 0, 0, FALSE, TRUE);
     ind += bgb_image.tileset->numTile;
     
     SND_startPlay_XGM(theme);

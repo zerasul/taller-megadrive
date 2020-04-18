@@ -20,4 +20,5 @@
 #define B_TEXT "B"
 #define C_TEXT "C"
 #define START_TEXT "START"
-#define EMPTY_TEXT "     "
+#define EMPTY_TEXT "        "
+#define PLAYER_1 "PLAYER 1"

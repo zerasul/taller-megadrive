@@ -13,7 +13,7 @@ int main()
     //inicializacion del sistema de controles
     JOY_init();
     //Establecemos el manejador de entrada
-	JOY_setEventHandler( &inputHandler );
+	JOY_setEventHandler( inputHandler );
     while(1)
     {
         VDP_waitVSync();
@@ -42,7 +42,12 @@ void printChar(char *text, int posx, int posy)
 void inputHandler(u16 joy, u16 state, u16 changed)
 {
 
-    
+		if (joy == JOY_1) {
+			printChar(PLAYER_1, POSX_START, POSY_UP);
+		}else{
+			printChar(EMPTY_TEXT, POSX_START, POSY_UP);
+		}
+
         if (changed & state & BUTTON_START)
 		{
 			printChar(START_TEXT, POSX_START, POSY_RIGHT);
