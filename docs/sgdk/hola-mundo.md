@@ -22,7 +22,7 @@ int main()
 	{
 		
 		//Se espera el refresco de pantalla
-		VDP_waitVSync();
+		SYS_doVBlankProcess();
 	}
 	return (0);
 }
