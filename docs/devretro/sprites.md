@@ -72,7 +72,7 @@ Ejemplo:
 while(1)
 {
     SPR_update();
-    VDP_waitVSync();
+    SYS_doVBlankProcess();
 }
 ```
 
