@@ -18,7 +18,7 @@ int main()
         //Se muestra el estado por pantalla
         showInputStatus();
         //Se espera al refresco de pantalla
-        VDP_waitVSync();
+        SYS_doVBlankProcess();
     }
     return (0);
 }
