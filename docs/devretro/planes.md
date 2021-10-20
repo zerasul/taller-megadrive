@@ -140,7 +140,7 @@ int main()
     while(1)
     {
         //Esperar refresco
-        VDP_waitVSync();
+        SYS_doVBlankProcess();
     }
 }
 ```
