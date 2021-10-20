@@ -73,7 +73,7 @@ int main()
         //actualiza el VDP
         SPR_update();
         //Esperar refresco
-        VDP_waitVSync();
+        SYS_doVBlankProcess();
     }
 
 }
